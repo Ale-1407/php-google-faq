@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile img{
+    height: 60px;
+}
+
+.logo span{
+    color: #666a6e;
+}
+
+nav{
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+ul{
+   gap: 40px; 
+   margin-bottom: 0;
+   color: #666a6e;
+   font-weight: bolder;
+   font-size: 15px;
+}
+    
+
+li{
+    list-style-type: none;
+}
+
+.domande{
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+    padding-bottom: 12px;
+}
