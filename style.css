@@ -34,3 +34,8 @@ li{
     border-bottom: 3px solid #3367d6;
     padding-bottom: 12px;
 }
+
+main{
+    width: 75%;
+    margin: auto;
+}

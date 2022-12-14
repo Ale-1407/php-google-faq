@@ -34,7 +34,7 @@
 
     <?php
 
-    $faq = [
+    $faqs = [
 
         [
             "domanda" => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
@@ -88,7 +88,15 @@
 
     ?>
 
+    <?php
 
+       foreach ( $faqs as $singleFaq ){
+        foreach ( $singleFaq as $valori ){
+            echo $valori;
+        }
+       }
+
+    ?>
 
 
 
